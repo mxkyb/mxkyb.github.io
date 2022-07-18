@@ -13,6 +13,12 @@ h3 {
     margin: 0;
 }
 
+.overflow-test {
+    background: blue;
+    height: 200px;
+    width: 1000px;
+}
+
 body {
     padding-top: 6.4rem;
 }
@@ -26,10 +32,24 @@ body {
     background-color: blue;
     border: 5px solid green;
     z-index: 5;
+    /* width: 100vw; */
 }
 
 .content {
+
+}
+
+.navigation {
+    display: flex;
+    position: sticky;
+    top: 20rem;
+    z-index: 6;
+    height: 3.8rem;
+    background-color: lightcoral;
+}
+
+.scoll-content {
     background: red;
     width: 500px;
-    height: 200px;
+    height: 1000px;
 }
